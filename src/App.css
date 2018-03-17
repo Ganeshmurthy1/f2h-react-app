@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.padding-LR-15px{
+  padding: 0px 15px;
+}
+.divxHeader{
+background-color: #fff;
+  height: 100px;
+  padding: 20px;
+  
+}
+.footDiv{
+  position: absolute;
+    bottom: 0;
+    background-color: #222;
+    width: 100%;
+    color:#fff;
+
+}
+.Head-tab li{
+  display: inline;
+  padding: 0px 40px;
+ 
+}
+.Head-tab{
+  margin-top: 10px;
+
+}
+.backgroundImage{
+ background-image: url("./assets/images/nature.jpg");    
+    position: relative;
+    opacity: 1;
+     min-height: 800px;
+}
+.white-text{
+  color:white;
+}
+.btn-submit{
+  float: right;
+}
+.formBorder{
+  border: 1px solid #fff;
+  margin-top: 150px;
+  padding: 20px;
+}
+.formBorder div{
+  padding: 10px;
+}
